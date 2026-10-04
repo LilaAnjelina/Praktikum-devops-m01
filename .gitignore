@@ -5,3 +5,10 @@ __pycache__/
 *.log
 app.log
 ringkasan-log.txt
+bin/
+include/
+lib64
+lib/python*/
+pyvenv.cfg
+share/
+kredensial-latihan.txt
