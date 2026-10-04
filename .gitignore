@@ -1,5 +1,14 @@
+# virtual environment
 .venv/
+bin/
+include/
+lib64
+lib/python*/
+pyvenv.cfg
+share/
 __pycache__/
-*.pyc
-.env
-*.log
+
+# data latihan, tidak boleh di-commit
+app.log
+ringkasan-log.txt
+kredensial-latihan.txt
