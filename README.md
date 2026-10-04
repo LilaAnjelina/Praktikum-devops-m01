@@ -1,7 +1,14 @@
-# Praktikum DevOps - Polibatam
-
-## Minggu 1
-Otomasi penyiapan aplikasi: setup.sh, src/, requirements.txt, HANDOVER.md, POSTMORTEM.md.
-
-## Minggu 2
-Refaktor setup.sh menjadi modular (lib/common.sh) dan skrip di minggu-02/: sysreport.sh, buat-log.sh.
+# Sentra Digital Batam - Layanan Contoh DevOps
+Artefak praktikum mata kuliah DevOps, Politeknik Negeri Batam.
+## Prasyarat
+- Linux atau WSL2, Python 3.10 ke atas, Bash 5
+## Menjalankan
+```bash
+./setup.sh
+```
+## Skrip yang tersedia
+| Berkas | Fungsi |
+|---|---|
+| setup.sh | Menyiapkan venv, memasang dependensi, menjalankan smoke test |
+| lib/common.sh | Fungsi logging dan validasi bersama |
+| sysreport.sh | Laporan kesehatan sistem (exit 0 sehat, 2 melewati ambang) |
